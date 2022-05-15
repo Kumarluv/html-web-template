@@ -1,0 +1,51 @@
+*{
+	margin: 0px; padding: 0px;
+}
+.header{ background: #0094da;  height: 100px;}
+.head img{ width: 100%; height: 80px;
+}
+.search_bar{
+	padding-left: 130px; position: relative;
+}
+.search_bar input{
+	padding: 10px; width: 100%; border: none;
+}
+.search_bar i{
+	position: absolute; top: 35px; right: 9px;font-size: 20px;
+}
+.login{
+	padding-left:100px ;padding-top: 30px ;
+}
+.login button{
+	font-size: 20px; font-weight: 500; padding: 0 30px;
+	color: blue;
+}
+.login ul a{
+	font-size: 18px; font-weight: 500; color: blue; background-color: white; text-decoration: none; float: left;	padding-left: 100px;
+}
+.orders{ padding-top: 30px; }
+.orders ul{
+	padding-left: 45px;
+}
+.orders ul a{
+	text-decoration: none; font-size: 20px;	font-weight: 500; color: white;	padding: 30px
+}
+#image_font{
+	padding: 30px; font-size: 30px;	text-align: center;	transition: 0.4s ease-in-out; background-color: white;
+}
+#image_font img{
+	width: 50%;
+}
+#image_font:hover{
+	transform: translateY(2px);box-shadow: 1px 5px 10px 10px #00000066;transition: .2s ease-in-out;
+}
+.banner{ padding: 50px 0;  }
+ .card img:hover{
+	transform: scale(1.2);transition: ease-in-out 0.4s;
+}
+.img-contain{
+	overflow: hidden;
+}
+.account h5{
+	color: darkblue;
+} 
