@@ -1,11 +1,11 @@
 .hello{
-	position: relative;	width: 100%;z-index: 9;height: 70px;padding: 0 10px;	 
+	position: relative;z-index: 9;
 }
 .Get-Started{
-	color: white;text-decoration: none;background: orangered;border-radius: 5px;padding: 10px 40px;font-size: 20px;margin-left: 30px;
+	color: white;text-decoration: none;background: orangered;border-radius: 5px;padding: 1px 25px;font-size: 15px;
 }
 .hello ul li a{
-	padding: 15px 25px !important;
+	box-sizing: border-box;
 }
 .navbar-brand{
 	font-size: 28px;
@@ -13,77 +13,72 @@
 .navbar-brand span{
 	color: red;
 }
+/*.Get-Started{
+	width: 200px;
+}*/
 .rock i{
 	color: orangered;font-size: 40px;
 } 
-.banner { text-align: center;  }
-.banner_text h2{ font-size: 45px;  font-weight: 200; color: #454545;}
-.banner_text p{ font-size: 18px; margin-bottom: 30px; padding: 0 100px;color: #8f9fae; }
-.banner_text{ padding-bottom: 40px; }
+.banner { text-align: center; box-sizing: border-box; }
+.banner_text h2{ font-size: 45px;  font-weight: 200; color: #454545; box-sizing: border-box;}
+.banner_text p{ font-size: 18px;color: #8f9fae; box-sizing: border-box;overflow: hidden;}
 .banner_text a{
-	color: orangered;text-decoration: none;border: 2px solid orangered;border-radius: 5px;padding: 10px 50px;font-size: 20px;
+	color: orangered;text-decoration: none;border: 2px solid orangered;border-radius: 5px;font-size: 20px;
 }
 .banner_text a:hover{ background: orangered; color: #fff; transition: 0.4s ease-in-out; }
  #banner_slider .carousel-image img{
-	height: 400px;text-align: center;padding: 100px 0 0;
+	height: 400px;text-align: center;
 }
 #banner_slider .owl-nav{ position: absolute; top: 40%; width: 100%; }
 #banner_slider .owl-nav .owl-prev,
-#banner_slider .owl-nav .owl-next{ width: 60px; height: 60px; border:1px solid #eee!important;  border-radius: 50% }
+#banner_slider .owl-nav .owl-next{ width: 60px; border:1px solid #eee!important;  border-radius: 50% }
 #banner_slider .owl-nav .owl-prev:hover,
 #banner_slider .owl-nav .owl-next:hover{border:1px solid #000!important;}
 
-#banner_slider .owl-nav .owl-prev{ float:left; margin-left: 40px; font-size: 35px; background: #c1c1c1; }
-#banner_slider .owl-nav .owl-next{ float:right; margin-right: 40px; font-size: 35px; background: #c1c1c1; }
+#banner_slider .owl-nav .owl-prev{ float:left; font-size: 35px; background: #c1c1c1; }
+#banner_slider .owl-nav .owl-next{ float:right; font-size: 35px; background: #c1c1c1; }
 
-#banner_slider .owl-dots{ position: absolute; bottom: -20px; width: 100%; text-align: center; }
+#banner_slider .owl-dots{ position: absolute;align-items: center;}
 
-#banner_slider .owl-dot {width: 12px; height: 12px; border-radius: 25px; margin-right: 7px; background: #949595;}
+#banner_slider .owl-dot {width: 12px; height: 12px; border-radius: 25px; margin-right: 27px; background: #949595;}
 #banner_slider .owl-dot.active{ background: #fa8751; }
-
-.magni_dolors{ padding: 50px 0; }
 .line{
-	width: 110px;color: orangered;opacity: 1;margin-top: -18px;
+	width: 110px;color: orangered;opacity: 1;
 }
 .rock{
-	padding: 30px;margin-left: 20px;transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
 }
 .rock:hover{
 	margin-top: 10px;transform: translateY(-20px);box-shadow: 1px 3px 30px 5px #d5d7d8;transition: 0.4s ease-in-out;
 }
 .architecto h2{
-	margin-left: 550px;color: #485664;font-weight: 300;font-size: 48px;	font-family: var(--font-primary);
+	color: #485664;font-weight: 300;font-size: 48px;font-family: var(--font-primary);
 }
 .architecto p{
-	margin-left: 40px;color: #8f9fae;font-size: 17px;font-weight: 400;padding: 0px 100px;
+	color: #8f9fae;font-size: 17px;font-weight: 400;box-sizing: border-box;
 }
 .dolore{
 	background: url("C:/xampp/htdocs/practice folder/Web templates/assets/img/about-bg.png");
 	background-repeat: no-repeat;
 }
 .dolore img{
-	 height:580px;width:450px;margin-left: 50px; margin-top: 60px;
+	 position: relative;top: 25px;left: 15px;
 }
 .officiis h3{
-	    font-weight: 350;font-family: "'poppins',sans-serif";color: "#485664";font-size:34px; padding: 0px 40px;position: relative;
-	    top: 30px;
-	    left: -30px;
-}
-.Neque a{ 
-    margin-left: 40px;
+	    font-weight: 350;font-family: "'poppins',sans-serif";color: "#485664";font-size:34px;position: relative;
 }
 .Neque a{
-	text-decoration: none;font-size: 20px;font-weight: 400;color: #485664;position: relative;right: 36px;top: 20px;
+	text-decoration: none;font-size: 20px;font-weight: 400;color: #485664;position: relative;
 }
 .Neque a:hover{
 	text-decoration: none;color: orangered;
 }
 .Naque .Neque-line:hover{
-	color: orangered;height: 1px;width: 103px;background: orangered;
+	color: orangered;height: 1px;background: orangered;
 	border: 2px solid orangered;position: relative;top: 20px;transition: ease-in-out, 0.2s;
 }
 .Neque-line{
-	height: 1px;width: 103px;background: orangered;border: 2px solid orangered;position: relative;top: 20px;
+	background: orangered;border: 2px solid orangered;position: relative;top: 20px;
 }
 .Consequuntur .p1{
 	font-style: italic;	font-size:17px;color:#1a1f24;font-weight: 400;position: relative;bottom: 1px;line-height: 1.2;
@@ -107,40 +102,39 @@
 	color: orangered;font-size: 25px;font-weight: 700;position: relative;bottom: 12px;
 }
 #icon_slider .item img{ 
-	padding: 0 40px;position: relative;bottom: 100px;
+	padding: 0 40px;position: relative;bottom: 10px;
 }
 .item{ 
 	padding-top: 100px;
 }
 .alias{
-	 background:#dee2e6;height: 600px;border:1px solid white;border-radius: 20px;"
+	 background:#dee2e6;border:1px solid white;border-radius: 20px;"
 }
-.phone{
-	position:relative; 	border-radius:20px; 
-}
+/*.phone{
+	border-radius:20px; 
+}*/
 .phone-1{
-	position: absolute;height: 450px;width: 350px;z-index: 2;
+	position: absolute;z-index: 2;
 }
 .phone-1 img{
 	border: 2px solid transparent;border-radius: 20px;
 }
 .sunt h1{
-	 font-weight: 670;color:grey;font-size: 45px;padding-top: 150px;position: relative;
+	 font-weight: 670;color:grey;font-size: 45px;
 }
 .sunt p{
-	font-weight:600;color:#485664;font-size: 18px;width:700px;
+	font-weight:600;color:#485664;font-size: 18px;
 }
 .sunt .btn{
 	background:orangered;color:white;font-size: 18px; 	
 }
 .kite{
-	position:relative;
-	height: 450px;width: 350px;background: rgba(255, 255, 255, .5);border: 1px;border-radius: 20px;
-	transform: rotate(10deg);bottom: 450px;
+	position:relative;background: rgba(255, 255, 255, .5);border: 1px;border-radius: 20px;
+	transform: rotate(10deg);bottom: 450px;box-sizing: border-box;overflow: hidden;
 }
 .manja{
-	position: relative;height: 450px;width: 350px;background: rgba(255, 255, 255, .5);border: 1px;
-	border-radius: 20px;transform: rotate(5deg);
+	position: relative;background: rgba(255, 255, 255, .5);border: 1px;
+	border-radius: 20px;transform: rotate(5deg);box-sizing: border-box;overflow: hidden;
 }
 
 .check{
@@ -153,16 +147,16 @@
 	background: url("C:/xampp/htdocs/practice folder/Web templates/assets/img/onfocus-content-bg.jpg");
 }
 .book h3{
-	padding: 70px 80px;height: 20px;color: white;font-size: 32px;font-weight: 500;
+	color: white;font-size: 32px;font-weight: 500;
 }
 .book p{
-	padding: 10px 80px;color: #f2f3f2;font-weight: 450;
+	color: #f2f3f2;font-weight: 450;
 }
 .book ul p{
-	color: #f2f3f2;	font-size: 18px;padding: 1px 60px;font-size: 17px;
+	color: #f2f3f2;	font-size: 18px;font-size: 17px;
 }
 .rod{
-	background: orangered;color: white;font-size: 25px;font-weight: 200;border-radius: 50%;padding: 0px 3px;
+	background: orangered;color: white;font-size: 25px;font-weight: 200;border-radius: 50%;
 }
 .Modinest-box{
 	font-weight: 300;
@@ -171,67 +165,66 @@
 	font-size: 18px;font-weight: 200;
 }
 .mod img{
-	height: 450px;width: 100%;border:1px;border-radius:20px;z-index: 1;
+	border:1px;border-radius:20px;z-index: 1;
 }
-.Modinest{ padding: 50px 0; }
 .Modinest a{
-	font-size: 39px;
+	font-size: 22px;
 }
 .Undaesenti{
 	text-align: center;box-shadow: 0px 3px 10px 0px #ccc
 
 }
 .Undaesenti a{
-	padding: 40px;color: #000;
+	color: #000;
 }
 .Undaesenti a:hover{
 	text-decoration: none;background: orangered;color: white;
 }
 .services-1{
-	text-align: center;padding-top: 60px ;
+	text-align: center;box-sizing: border-box;
 }
 .services-1 h3{
-	font-size: 45px;color:  #485664;font-weight: 200;padding-bottom: 20px;
+	font-size: 45px;color:  #485664;font-weight: 200;
 }
 .services-1 p{
-	font-size: 17px;color: #8f9fae;padding: 0px 170px;padding-bottom: 30px;
+	font-size: 17px;color: #8f9fae;overflow: hidden;
 }
  .services-2:hover a{
 	color: orangered;
 }
 
 .services-2:hover i{
-	color: orangered;border: 2px solid orangered; background: white; transition: ease-out,0.2s;
+	color: orangered;border: 2px solid orangered; background: white; transition: ease-out,0.2s;padding: 20px;
 }
 .services-2{
-	overflow:hidden; padding: 0;
+	overflow:hidden;
 }
  .services-2:hover img{
 	border-radius: 10px;box-sizing: border-box;transform: scale(1.2);transition: ease-in-out,0.4s;
 	}
 .services-5{
 	position:relative; margin: -87px 30px 0px 30px; padding: 45px 30px;background: rgba(255, 255, 255, 1); background: #00000044; border: 1px;
-	border-radius: 10px; text-decoration: none;	text-align: center;	font-weight: 200;color: black;height: 250px;
+	border-radius: 10px; text-decoration: none;	text-align: center;	font-weight: 200;color: black;
 }
 .serv-btn{
 	position: absolute;top: -23px;left:40%;
 }
 .serv-btn i{
-	font-size: 30px;font-weight: 200;color: white;border: 5px solid white;border-radius: 50%;padding: 11px 17px;background: orangered;
+	font-size: 30px;font-weight: 200;color: white;border: 5px solid white;border-radius: 50%;background: orangered;
 }
 .services-5 a{
-	text-decoration: none;font-size: 22px;font-weight: 600;color: black;margin-top: 20px;
+	text-decoration: none;font-size: 22px;font-weight: 600;color: black;
 }
 .services-5 p{
-	font-size: 15px;font-weight: 400;padding: 4px 21px;margin-top: 20px;
+	font-size: 15px;font-weight: 400;padding: 0;
 }
 .services-5{
     background: rgba(255, 255, 255, .9);box-shadow: 0px 3px 15px 2px #ccc; 
 }
-.freelancer{
+/*.freelancer{
 	background: url("C:/xampp/htdocs/practice folder/Web templates/assets/img/testimonials-bg.jpg");
 	height: 500px;
-}
+}*/
 
 .testimonial{ padding: 30px 0; background: url(../img/testimonials-bg.jpg);background-size: cover; 
 	background-repeat: no-repeat; background-position: center; }
@@ -243,25 +236,23 @@
 	font-size: 24px;
 }
 .testimonial_text h6{ font-size: 14px; }
-.stars i{ color:goldenrod; }
-.testimonial_text p{ padding: 10px 100px; } 
+.stars i{ color:goldenrod; } 
 
+#testi_slider .owl-dots{ position: absolute;text-align: center}
 
-#testi_slider .owl-dots{ position: absolute; bottom: -50px; width: 100%; text-align: center; }
-
-#testi_slider .owl-dot {width: 12px; height: 12px; border-radius: 25px; margin-right: 7px; background: #949595;}
+#testi_slider .owl-dot {width: 20px; border-radius: 25px; background: #949595}
 #testi_slider .owl-dot.active{ background: #fa8751;}
 
 
 .pricing-1 h3{
-	font-size: 45px;color:  #485664;font-weight: 200;padding-bottom: 20px;text-align: center;
+	font-size: 45px;color:  #485664;font-weight: 200;text-align: center;
 }
 .pricing-1 p{
-	margin-left: 40px;color: #8f9fae;font-size: 17px;font-weight: 400;padding: 0px 100px;
+	color: #8f9fae;font-size: 17px;font-weight: 400;overflow: hidden;box-sizing: border-box;
 }
 .pricing-2{
 	background: url("C:/xampp/htdocs/practice folder/Web templates/assets/img/pricing-bg.jpg");background-repeat: round;border-radius: 10px;height: 200px;
-	color: white;padding-top: 30px;
+	color: white;
 }
 .pricing-3{
 	text-align: center;	font-size: 35px;
@@ -270,18 +261,17 @@
 	text-align: center;	font-size: 70px;
 }
 .pricing-5{
-	height: 400px;width: 420px;	padding: 30px 70px;line-height: 3;font-size: 17px;
+	line-height: 2;font-size: 17px;
 }
 .pricing-5 a{
 	text-align: center;	text-decoration: none;font-size: 17px;font-weight: 700;	background: white;
-	color: orangered;border: 1px solid orangered;border-radius: 2px;padding: 10px 40px;
+	color: orangered;border: 1px solid orangered;border-radius: 2px;
 }
 .pricing-6{
 	background: url("C:/xampp/htdocs/practice folder/Web templates/assets/img/pricing-bg.jpg");
-	background-repeat: round;position: relative;height: 200px;width: 420px;color: white;padding: 30px 90px;
-	/*background: rgba(228, 106, 49, 0.9);*/
+	background-repeat: round;position: relative;color: white;
 }
-.pricing-6:before{ position: absolute; content: ""; background: rgba(228, 106, 49, 0.8); width: 100%; height: 200px; top: 0; left: 0;}
+.pricing-6:before{ position: absolute; content: ""; background: rgba(228, 106, 49, 0.8);top: 0; left: 0;}
 .pricing-7{
 	text-align: center;font-size: 35px;	z-index: 1;
 }
@@ -289,14 +279,11 @@
 	text-align: center;	font-size: 70px;
 }
 .pricing-9{
-	height: 400px;width: 420px;padding: 30px 70px;line-height: 3;font-size: 17px;
+	line-height: 3;font-size: 17px;
 }
 .pricing-9 a{
 	text-align: center;	text-decoration: none;font-size: 17px;font-weight: 700;background: orangered;
-	color: white;border: 5px solid orangered;border-radius: 2px;padding: 10px 40px;
-}
-.faq{
-	padding: 20px 40px;
+	color: white;border: 5px solid orangered;border-radius: 2px;
 }
 .faq h2{
 	font-size: 30px;font-weight: 400;color: #485689;
@@ -305,27 +292,24 @@
 	font-size: 16px;font-weight: 500;color: #8f9fae;
 }
 .faq2 img{
-	height: 450px;width: 435px;
+	width: 435px;
 }
 .portfolio h3{
-	font-size: 45px;color:  #485664;font-weight: 200;padding-bottom: 20px;text-align: center;
+	font-size: 45px;color:  #485664;font-weight: 200;text-align: center;
 }
 .portfolio p{
-	margin-left: 40px;color: #8f9fae;font-size: 17px;font-weight: 400;padding: 0px 100px;
-}
-.portfolio-1{
-	margin-left: 40px;
+	color: #8f9fae;font-size: 17px;font-weight: 400;
 }
 .portfolio-1 li{
-	float: left;text-align: center;	list-style-type: none;	padding: 20px 70px;
-	font-size: 20px;font-weight: 200;margin-left: 30px;
+	float: left;text-align: center;	list-style-type: none;
+	font-size: 20px;font-weight: 200;padding: 10px;
 }
 .ceo img{
 	border-radius: 10px;
 }
 .gov {
-	position:relative; margin: -57px 30px 0px 30px; padding: 35px 30px;	background: rgba(255, 255, 255, 2.0); background: white; border: 1px;
-	border-radius: 10px; text-decoration: none;box-shadow: 3px 0px 6px 2px #ccc;	text-align: center;	font-weight: 200;color: black;height: 125px;
+	position:relative;background: rgba(255, 255, 255, 2.0); background: white; border: 1px;
+	border-radius: 10px; text-decoration: none;box-shadow: 3px 0px 6px 2px #ccc;text-align: center;	font-weight: 200;color: black;
 }
 .gov h3{
 	font-weight: 500;font-size: 25px;color: #485664;
@@ -344,13 +328,13 @@
 .portfolio-2 img{box-sizing: border-box;overflow:hidden;overflow-x: hidden;
 }
 .blog-1 h3{
-	font-size: 45px;color:  #485664;font-weight: 400;padding-bottom: 20px;text-align: center;
+	font-size: 45px;color:  #485664;font-weight: 400;text-align: center;
 }
 .blog-1 p{
 	color: #8f9fae;font-size: 17px;font-weight: 400;text-align: center;padding: 0 30px;
 }
 .blog-2 p{
-	font-size: 15px;font-weight: 500;padding-top: 10px;color: #8f9fae;
+	font-size: 15px;font-weight: 500;color: #8f9fae;
 }
 .blog-2 h3{
 	font-size: 22px;color:  #485664;font-weight: 700;
@@ -365,27 +349,47 @@
 .colors:hover{
 	color: orangered;
 }
-.contact{
- padding: 50px 0;
-}
 .contact-2{
-	padding: 40px;box-shadow: 3px 0px 6px 2px #ccc;
-}
-.contact-2 h4{
-	padding-left: 30px;
+	box-shadow: 3px 0px 6px 2px #ccc;
 }
 .contact-2 p{
-	padding: 0px 54px 0px 30px;	color: #8f9fae;	font-size: 15px;font-weight: 400;width: 380px;
+	color: #8f9fae;	font-size: 15px;font-weight: 400;
 }
 .contact-3 h4{
-	font-size: 19px;padding-left: 50px;
+	font-size: 19px;
 }
 .contact-3 p{
-	padding: 0px 50px 8px 57px;	color: #8f9fae;	font-size: 15px;font-weight: 400;
+	color: #8f9fae;	font-size: 15px;font-weight: 400;
 }
 .contact-3 i{
-	font-size: 25px; color: orangered; padding-left:25px;
+	font-size: 25px; color: orangered;
 }
 .contact-4{
-	color: white;background: orangered;padding: 15px 40px; border: none; text-align: center;
+	color: white;background: orangered;border: none; text-align: center;
+}
+.bt-i{
+	color: red;
+	height: 50px;
+	width: 50px;
+}
+
+/* Media query */
+
+@media screen and (max-width: 1000px){
+  .hello{
+  	display: none;
+  }
+  .tab-i{
+  	display: block;
+  }
+}
+
+@media screen and (min-width: 1000px){
+	.tab-i{
+		display: none;
+		color: red;
+	}
+	.tab-i a{
+  	display: none;
+  }
 }
